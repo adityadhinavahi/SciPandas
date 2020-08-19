@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ *
+ * This help file was generated from agg.sci using help_from_sci().
+ *
+ -->
+
+<refentry version="5.0-subset Scilab" xml:id="agg" xml:lang="en"
+          xmlns="http://docbook.org/ns/docbook"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          xmlns:svg="http://www.w3.org/2000/svg"
+          xmlns:ns3="http://www.w3.org/1999/xhtml"
+          xmlns:mml="http://www.w3.org/1998/Math/MathML"
+          xmlns:scilab="http://www.scilab.org"
+          xmlns:db="http://docbook.org/ns/docbook">
+
+  <refnamediv>
+    <refname>agg</refname>
+    <refpurpose>Aggregate using one or more operations over the specified axis.</refpurpose>
+  </refnamediv>
+
+
+<refsynopsisdiv>
+   <title>Syntax</title>
+   <synopsis>
+   dfr.agg(input_string)
+   
+   </synopsis>
+</refsynopsisdiv>
+
+<refsection>
+   <title>Parameters</title>
+   <variablelist>
+        <varlistentry>
+            <term>input_string :</term>
+            <listitem><para> String containing the function, additional parameters supported can be passed. (Scilab Functions are not supported)</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>// For additional information on parameters, see https:</term>
+            <listitem><para>//pandas.pydata.org/docs/reference/api/pandas.DataFrame.agg.html?#pandas.DataFrame.agg</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>Returns :</term>
+            <listitem><para> DataFrame</para></listitem>
+        </varlistentry>
+   </variablelist>
+</refsection>
+
+<refsection>
+   <title>Examples</title>
+   <programlisting role="example"><![CDATA[
+// Aggregate using sum on the columns
+dfr.agg(""'sum''"+",axis="+""'columns''")
+Lambda functions are also supported
+
+   ]]></programlisting>
+</refsection>
+
+<refsection>
+   <title>Authors</title>
+   <simplelist type="vert">
+   <member>Aditya Dhinavahi</member>
+   <member>Sundeep Akella</member>
+   </simplelist>
+</refsection>
+</refentry>

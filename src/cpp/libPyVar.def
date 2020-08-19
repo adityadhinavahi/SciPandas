@@ -1,0 +1,9 @@
+LIBRARY    libPyVar.dll
+EXPORTS
+	__local_stdio_printf_options
+	_vsnprintf_l
+	_vsprintf_l
+	sprintf
+	wmemcmp
+	wmemcpy
+	wmemmove

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ *
+ * This help file was generated from diff.sci using help_from_sci().
+ *
+ -->
+
+<refentry version="5.0-subset Scilab" xml:id="diff" xml:lang="en"
+          xmlns="http://docbook.org/ns/docbook"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          xmlns:svg="http://www.w3.org/2000/svg"
+          xmlns:ns3="http://www.w3.org/1999/xhtml"
+          xmlns:mml="http://www.w3.org/1998/Math/MathML"
+          xmlns:scilab="http://www.scilab.org"
+          xmlns:db="http://docbook.org/ns/docbook">
+
+  <refnamediv>
+    <refname>diff</refname>
+    <refpurpose>First discrete difference of element.</refpurpose>
+  </refnamediv>
+
+
+<refsynopsisdiv>
+   <title>Syntax</title>
+   <synopsis>
+   df.isna()
+   
+   </synopsis>
+</refsynopsisdiv>
+
+<refsection>
+   <title>Parameters</title>
+   <variablelist>
+        <varlistentry>
+            <term>periods:</term>
+            <listitem><para> int, default 1</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>axis:</term>
+            <listitem><para> {0 or ‘index’, 1 or ‘columns’}, default 0</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>For additional information on parameters, See https:</term>
+            <listitem><para>//pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.diff.html</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>Returns :</term>
+            <listitem><para> DataFrame</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>NOTE:</term>
+            <listitem><para> For boolean dtypes, this uses operator.xor() rather than operator.sub().</para></listitem>
+        </varlistentry>
+   </variablelist>
+</refsection>
+
+<refsection>
+   <title>Examples</title>
+   <programlisting role="example"><![CDATA[
+Difference with previous column
+df.diff()
+   ]]></programlisting>
+</refsection>
+
+<refsection>
+   <title>Authors</title>
+   <simplelist type="vert">
+   <member>Aditya Dhinavahi</member>
+   <member>Sundeep Akella</member>
+   </simplelist>
+</refsection>
+</refentry>

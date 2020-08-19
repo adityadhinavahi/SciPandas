@@ -1,0 +1,6 @@
+LIBRARY    scithon_cpp.dll
+EXPORTS
+	wmemcmp
+	wmemcpy
+	wmemmove
+	scithon_cpp

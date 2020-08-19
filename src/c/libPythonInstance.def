@@ -1,0 +1,7 @@
+LIBRARY    libPythonInstance.dll
+EXPORTS
+	Initialize
+	Finalize
+	GetStdOutSize
+	GetStdOut
+	GetPyObject

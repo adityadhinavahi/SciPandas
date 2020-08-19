@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ *
+ * This help file was generated from memory_usage.sci using help_from_sci().
+ *
+ -->
+
+<refentry version="5.0-subset Scilab" xml:id="memory_usage" xml:lang="en"
+          xmlns="http://docbook.org/ns/docbook"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          xmlns:svg="http://www.w3.org/2000/svg"
+          xmlns:ns3="http://www.w3.org/1999/xhtml"
+          xmlns:mml="http://www.w3.org/1998/Math/MathML"
+          xmlns:scilab="http://www.scilab.org"
+          xmlns:db="http://docbook.org/ns/docbook">
+
+  <refnamediv>
+    <refname>memory_usage</refname>
+    <refpurpose>Get Multiplication of dataframe and other, element-wise (binary operator mul).</refpurpose>
+  </refnamediv>
+
+
+<refsynopsisdiv>
+   <title>Syntax</title>
+   <synopsis>
+   df.memory_usage(index = False)
+   
+   </synopsis>
+</refsynopsisdiv>
+
+<refsection>
+   <title>Parameters</title>
+   <variablelist>
+        <varlistentry>
+            <term>index :</term>
+            <listitem><para> bool, default True</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>deep:</term>
+            <listitem><para> bool, default False</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>For additional information on parameters, see https:</term>
+            <listitem><para>//pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.memory_usage.html</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>Returns :</term>
+            <listitem><para> series</para></listitem>
+        </varlistentry>
+   </variablelist>
+</refsection>
+
+<refsection>
+   <title>Examples</title>
+   <programlisting role="example"><![CDATA[
+//The memory footprint of object dtype columns is ignored by default:
+dfr.memory_usage()
+
+   ]]></programlisting>
+</refsection>
+
+<refsection>
+   <title>Authors</title>
+   <simplelist type="vert">
+   <member>Aditya Dhinavahi</member>
+   <member>Sundeep Akella</member>
+   </simplelist>
+</refsection>
+</refentry>

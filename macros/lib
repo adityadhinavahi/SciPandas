@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scilablib name="scipandaslib">
+  <macro name="agg" file="agg.bin" md5="a9e316dcb94a431408f398c697a11746"/>
+  <macro name="apply" file="apply.bin" md5="037d237445869bb113aacd7e449f354b"/>
+  <macro name="applymap" file="applymap.bin" md5="a19822fd8a6f9ca25d2cfb5c704b0758"/>
+  <macro name="at" file="at.bin" md5="69fdefd31221d814b06f31235542f28e"/>
+  <macro name="combine" file="combine.bin" md5="02baa4fdb1f19719ddaf1eb854652277"/>
+  <macro name="convert_dtypes" file="convert_dtypes.bin" md5="a0cb403b1a1dd5ac19ef82ea28db1e18"/>
+  <macro name="copy" file="copy.bin" md5="14b79219f54b6a9e237170c6f59ed2d7"/>
+  <macro name="corr" file="corr.bin" md5="2fe3b974f1ff3a1c5c8f6c5b6402a61a"/>
+  <macro name="cut" file="cut.bin" md5="ed9ece12b3eccb300dea1656d5bd4c55"/>
+  <macro name="dframefunc" file="dframefunc.bin" md5="f6e2617c891ea42bef82e2b954fcac86"/>
+  <macro name="diff" file="diff.bin" md5="d5aa7882d271655c09bca356b0bf26b0"/>
+  <macro name="drop" file="drop.bin" md5="5bfd5613c94dd93f6505249f7870eb28"/>
+  <macro name="drop_duplicates" file="drop_duplicates.bin" md5="0d43049ef601a6f9848a788bfdef0d69"/>
+  <macro name="dropna" file="dropna.bin" md5="c5260ba59234b316aa2778a3a1bafafd"/>
+  <macro name="ewm" file="ewm.bin" md5="61b59d12b09fac8ad6f3cd05bd7c05b1"/>
+  <macro name="fillna" file="fillna.bin" md5="c5aafe23931c96e2aeb5c8a1050b9dbd"/>
+  <macro name="groupby" file="groupby.bin" md5="3781525229a563d2db88b1d8ec2856ad"/>
+  <macro name="iloc" file="iloc.bin" md5="40b287f0a09aba715a13880900f63d88"/>
+  <macro name="infer_objects" file="infer_objects.bin" md5="9817e62fe9871cabd10fee89be16a3f4"/>
+  <macro name="isna" file="isna.bin" md5="30b027fe13d992a269a58ea6f236fca8"/>
+  <macro name="join" file="join.bin" md5="6688cf2180e5b0211d59458cca1793fe"/>
+  <macro name="loc" file="loc.bin" md5="620634ee1a790791dd7ed375ebdceea9"/>
+  <macro name="memory_usage" file="memory_usage.bin" md5="5fe2a38ed9643e9222dda5210c798709"/>
+  <macro name="merge_ordered" file="merge_ordered.bin" md5="1597d6ee8352b103591307ddb5dee846"/>
+  <macro name="mul" file="mul.bin" md5="5571d170029aaae911f6b1943bc96c2e"/>
+  <macro name="notna" file="notna.bin" md5="b327673a114ac58a7b94c2df956d3f41"/>
+  <macro name="qcut" file="qcut.bin" md5="7ac2c0a179496334440c6f578b1bdba0"/>
+  <macro name="rank" file="rank.bin" md5="0830c7d432ab978140aeaa942d77e8a6"/>
+  <macro name="replace" file="replace.bin" md5="55dab284f206c3f67f1f34d62bb97f45"/>
+  <macro name="set_axis" file="set_axis.bin" md5="2296f235daaa016be0e10cee99ad6616"/>
+  <macro name="set_index" file="set_index.bin" md5="1fd1788965adf73ff7b201544abc096b"/>
+  <macro name="sort_values" file="sort_values.bin" md5="8a3646a01bc520b57a88cd1aaa8733eb"/>
+  <macro name="sub" file="sub.bin" md5="0928df398aa1cfbff73916b854109d11"/>
+  <macro name="xs" file="xs.bin" md5="a6bacfe2729e2d7766b8255e13509e6a"/>
+</scilablib>

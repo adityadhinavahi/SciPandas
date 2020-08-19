@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ *
+ * This help file was generated from join.sci using help_from_sci().
+ *
+ -->
+
+<refentry version="5.0-subset Scilab" xml:id="join" xml:lang="en"
+          xmlns="http://docbook.org/ns/docbook"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          xmlns:svg="http://www.w3.org/2000/svg"
+          xmlns:ns3="http://www.w3.org/1999/xhtml"
+          xmlns:mml="http://www.w3.org/1998/Math/MathML"
+          xmlns:scilab="http://www.scilab.org"
+          xmlns:db="http://docbook.org/ns/docbook">
+
+  <refnamediv>
+    <refname>join</refname>
+    <refpurpose>Join columns of another DataFrame.</refpurpose>
+  </refnamediv>
+
+
+<refsynopsisdiv>
+   <title>Syntax</title>
+   <synopsis>
+   df.set_index(' ').join(other.set_index(' '))
+   
+   </synopsis>
+</refsynopsisdiv>
+
+<refsection>
+   <title>Parameters</title>
+   <variablelist>
+        <varlistentry>
+            <term>other:</term>
+            <listitem><para> DataFrame, Series, or list of DataFrame</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>lsuffix:</term>
+            <listitem><para> str, default ‘’</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>rsuffix:</term>
+            <listitem><para> str, default ‘’</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>sort:</term>
+            <listitem><para> bool, default False</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>method:</term>
+            <listitem><para>{‘pearson’, ‘kendall’, ‘spearman’} or callable</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>dropbool:</term>
+            <listitem><para>  default False</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>For additional information on parameters, See https:</term>
+            <listitem><para>//pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.join.html</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>Returns :</term>
+            <listitem><para> series</para></listitem>
+        </varlistentry>
+   </variablelist>
+</refsection>
+
+<refsection>
+   <title>Examples</title>
+   <programlisting role="example"><![CDATA[
+If we want to join using the key columns, we need to set key to be the index in both df and other. The joined DataFrame will have key as its index.
+df.join(other, lsuffix='_caller', rsuffix='_other')
+   ]]></programlisting>
+</refsection>
+
+<refsection>
+   <title>Authors</title>
+   <simplelist type="vert">
+   <member>Aditya Dhinavahi</member>
+   <member>Sundeep Akella</member>
+   </simplelist>
+</refsection>
+</refentry>

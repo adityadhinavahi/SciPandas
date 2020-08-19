@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ *
+ * This help file was generated from convert_dtypes.sci using help_from_sci().
+ *
+ -->
+
+<refentry version="5.0-subset Scilab" xml:id="convert_dtypes" xml:lang="en"
+          xmlns="http://docbook.org/ns/docbook"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          xmlns:svg="http://www.w3.org/2000/svg"
+          xmlns:ns3="http://www.w3.org/1999/xhtml"
+          xmlns:mml="http://www.w3.org/1998/Math/MathML"
+          xmlns:scilab="http://www.scilab.org"
+          xmlns:db="http://docbook.org/ns/docbook">
+
+  <refnamediv>
+    <refname>convert_dtypes</refname>
+    <refpurpose>Convert columns to best possible dtypes using dtypes supporting pd.NA.</refpurpose>
+  </refnamediv>
+
+
+<refsynopsisdiv>
+   <title>Syntax</title>
+   <synopsis>
+   pd.DataFrame(data=d)
+   
+   </synopsis>
+</refsynopsisdiv>
+
+<refsection>
+   <title>Parameters</title>
+   <variablelist>
+        <varlistentry>
+            <term>nfer_objects:</term>
+            <listitem><para> bool, default True</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>convert_string:</term>
+            <listitem><para> bool, default True</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>convert_integer:</term>
+            <listitem><para> bool, default True</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>convert_boolean:</term>
+            <listitem><para> bool, defaults True</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>For additional information on parameters, See  https:</term>
+            <listitem><para>//pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.convert_dtypes.html</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>Returns :</term>
+            <listitem><para> Series or DataFrame</para></listitem>
+        </varlistentry>
+   </variablelist>
+</refsection>
+
+<refsection>
+   <title>Examples</title>
+   <programlisting role="example"><![CDATA[
+//Cast all columns to int32:
+d = {'col1': [1, 2], 'col2': [3, 4]}
+df = pd.DataFrame(data=d)
+df.dtypes
+
+   ]]></programlisting>
+</refsection>
+
+<refsection>
+   <title>Authors</title>
+   <simplelist type="vert">
+   <member>Aditya Dhinavahi</member>
+   <member>Sundeep Akella</member>
+   </simplelist>
+</refsection>
+</refentry>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE toc PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp TOC Version 1.0//EN" "http://java.sun.com/products/javahelp/toc_1_0.dtd">
+<toc version="1.0">
+<tocitem target="index" text="scipandas">
+<tocitem target="section_a64506a41db3568e598398366625ad49" text="scipandas">
+<tocitem target="agg" text="agg"/>
+<tocitem target="apply" text="apply"/>
+<tocitem target="applymap" text="applymap"/>
+<tocitem target="astype" text="astype"/>
+<tocitem target="at" text="at"/>
+<tocitem target="categorical" text="categorical"/>
+<tocitem target="combine" text="combine"/>
+<tocitem target="convert_dtypes" text="convert_dtypes"/>
+<tocitem target="copy" text="copy"/>
+<tocitem target="corr" text="corr"/>
+<tocitem target="corrwith()" text="corrwith()"/>
+<tocitem target="cut" text="cut"/>
+<tocitem target="dataframe" text="dataframe"/>
+<tocitem target="dframefunc" text="dframefunc"/>
+<tocitem target="diff" text="diff"/>
+<tocitem target="drop" text="drop"/>
+<tocitem target="drop_duplicates" text="drop_duplicates"/>
+<tocitem target="dropna" text="dropna"/>
+<tocitem target="ewm" text="ewm"/>
+<tocitem target="fillna" text="fillna"/>
+<tocitem target="groupby" text="groupby"/>
+<tocitem target="iloc" text="iloc"/>
+<tocitem target="infer_objects" text="infer_objects"/>
+<tocitem target="isna" text="isna"/>
+<tocitem target="join" text="join"/>
+<tocitem target="loc" text="loc"/>
+<tocitem target="melt()" text="melt()"/>
+<tocitem target="memory_usage" text="memory_usage"/>
+<tocitem target="merge_ordered" text="merge_ordered"/>
+<tocitem target="mul" text="mul"/>
+<tocitem target="notna" text="notna"/>
+<tocitem target="qcut" text="qcut"/>
+<tocitem target="rank" text="rank"/>
+<tocitem target="replace" text="replace"/>
+<tocitem target="set_axis" text="set_axis"/>
+<tocitem target="set_index" text="set_index"/>
+<tocitem target="sort_values" text="sort_values"/>
+<tocitem target="sub" text="sub"/>
+<tocitem target="xs" text="xs"/>
+</tocitem>
+</tocitem>
+</toc>

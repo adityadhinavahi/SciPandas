@@ -1,0 +1,112 @@
+// Modify this file to provide a description of your toolbox.
+// This file is used by Atoms GUI in scilab, to show information about the toolbox.
+//
+// Note that it will NOT be used when publishing your toolbox on http://atoms.scilab.org;
+// the present file is only used if you distribute your toolbox yourself.
+// On the http://atoms.scilab.org site, only the information you provide there is used.
+//
+//
+// Lines starting with // are comments
+// (you can remove all the comments designed to help you)
+// Lines starting with a space are continuation of the previous field.
+// Empty lines separate fields.
+
+
+// Unique identifier for this toolbox.
+// It must be alphanumeric, start with a letter and contain neither space
+// nor special characters other than underscore or dash.
+Toolbox: scipandas
+
+// Human-friendly name for your toolbox
+Title: SciPandas
+
+// One-line description for your toolbox
+Summary: Analyze with the power of Pandas
+
+// Version number, in format 'major.minor.patch', or
+// 'major.minor.patch', where all fields are numbers.
+// If you are just starting your toolbox, you should use '0.1' or '0.1.0'.
+// Use '1.0' or '1.0.0' for a tested, good quality first version.
+Version: 0.1
+
+// Name(s) of the author(s) of this toolbox.
+// They are usually the original copyright holders
+// (persons or entities)
+Author: Aditya Dhinavahi
+  Sundeep Akella
+
+// Name(s) and email address(es) of the person(s) maintaining this toolbox
+Maintainer: Aditya Dhinavahi <dhinavahiaditya@gmail.com>
+  Sundeep Akella <sundeep.akella1999@gmail.com>
+
+// Categories that this toolbox belongs to.
+// The toolbox will appear in the Scilab Atoms GUI
+// under the categories that you select here.
+Category: 
+
+// Name of the institution (company, university, lab...) who has developped the toolbox.
+// If you developped the toolbox as an individual, then just enter "private individual"
+Entity: Amrita Vishwa Vidyapeetham, Coimbatore
+
+// Optional website that has more information about this toolbox
+WebSite: http://www.scilab.org
+
+// License under which the toolbox will be published
+License: GPL 2.0
+
+// Version of Scilab supported by this toolbox,
+// prefixed by =, >= ...
+ScilabVersion: >= 6.0
+
+// Other toolbox(es) that must be installed in order
+// this toolboxes to work. Atoms will automatically ensure that
+// the dependent toolboxes listed here are installed on the user's
+// Scilab installation.
+// Each toolbox dependency must be in format:
+//    <operator> <toolbox name> <toolbox version|any>
+// where operator can be: ~, >, <, >=, <=
+// If multiple dependencies, put one per line (starting each line with a space)
+Depends: 
+
+// Creation date
+Date: 2016-03-01
+
+Description: SciPandas Usage
+
+ SciPandas aims to solve the problem of analyzing the structured data files like csv,excel,sql and so on. Using this module, user can easily run analysis in a pythonic way.
+
+ To use this module,
+  Windows 10 OS is required
+  Python 3.8.3 is required
+  Pandas package is required
+  Microsoft Visual Studio C compiler is required
+
+ Python could be installed from the Microsoft Store on windows.
+ Our toolbox needs to know the path of our installed Python libraries and DLLs, in order to achieve that we must ensure that PYTHONPATH is set correctly.
+ To install pandas,
+  open the directory where python is installed and type "python -m pip install pandas"
+  this will install pandas and its dependencies.
+
+ After finishing with the pre-setup install this toolbox by running the command atomsInstall('SciPandas-1.0.zip') from the directory where SciPandas has been downloaded
+ After 	the installation is complete load the toolbox by running the command atomsLoad('SciPandas')
+
+ Usage:
+  The functionality of the pandas library in this toolbox is divided into two parts:
+   Functions that have direct input or no input
+   Functions that require input in a pythonic manner such as df.loc[]
+  To start the pandas library execute pd = pandas();
+  This will return a pandas object using which the user can load files to analyze them
+  For example,
+   df = pd.read_csv(filename.csv);
+   Loads the csv and returns a dataframe object which could be used to view, analyze, and export the data.
+  But for some functions like loc,iloc,at,etc., the input is more in a pythonic way
+  For example,
+   df.loc['viper']
+  In order overcome this limitation we have 
+   dframefunc and pdfunc functions
+  In these we use the concept of passing strings or object as per the requirement to the function.
+  For example,
+   df.loc['viper'] can be accessed through dframefunc as t_df.loc("'viper''","t_df") where 'viper' comes in [] of df.loc and t_df is the instance name.
+
+
+

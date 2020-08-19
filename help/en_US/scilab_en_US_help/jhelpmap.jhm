@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE map PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp Map Version 1.0//EN" "http://java.sun.com/products/javahelp/map_1_0.dtd">
+<map version="1.0">
+<mapID target="index" url="index.html"/>
+<mapID target="section_a64506a41db3568e598398366625ad49" url="section_a64506a41db3568e598398366625ad49.html"/>
+<mapID target="agg" url="agg.html"/>
+<mapID target="apply" url="apply.html"/>
+<mapID target="applymap" url="applymap.html"/>
+<mapID target="astype" url="astype.html"/>
+<mapID target="at" url="at.html"/>
+<mapID target="categorical" url="categorical.html"/>
+<mapID target="combine" url="combine.html"/>
+<mapID target="convert_dtypes" url="convert_dtypes.html"/>
+<mapID target="copy" url="copy.html"/>
+<mapID target="corr" url="corr.html"/>
+<mapID target="corrwith()" url="corrwith().html"/>
+<mapID target="cut" url="cut.html"/>
+<mapID target="dataframe" url="dataframe.html"/>
+<mapID target="dframefunc" url="dframefunc.html"/>
+<mapID target="diff" url="diff.html"/>
+<mapID target="drop" url="drop.html"/>
+<mapID target="drop_duplicates" url="drop_duplicates.html"/>
+<mapID target="dropna" url="dropna.html"/>
+<mapID target="ewm" url="ewm.html"/>
+<mapID target="fillna" url="fillna.html"/>
+<mapID target="groupby" url="groupby.html"/>
+<mapID target="iloc" url="iloc.html"/>
+<mapID target="infer_objects" url="infer_objects.html"/>
+<mapID target="isna" url="isna.html"/>
+<mapID target="join" url="join.html"/>
+<mapID target="loc" url="loc.html"/>
+<mapID target="melt()" url="melt().html"/>
+<mapID target="memory_usage" url="memory_usage.html"/>
+<mapID target="merge_ordered" url="merge_ordered.html"/>
+<mapID target="mul" url="mul.html"/>
+<mapID target="notna" url="notna.html"/>
+<mapID target="qcut" url="qcut.html"/>
+<mapID target="rank" url="rank.html"/>
+<mapID target="replace" url="replace.html"/>
+<mapID target="set_axis" url="set_axis.html"/>
+<mapID target="set_index" url="set_index.html"/>
+<mapID target="sort_values" url="sort_values.html"/>
+<mapID target="sub" url="sub.html"/>
+<mapID target="xs" url="xs.html"/>
+</map>

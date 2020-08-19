@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book [
+<!--Begin Entities-->
+<!ENTITY a3b4852a476a4b41aa75fa30e7e2656ce SYSTEM "file:///F:/downloads/SciPandas-0.1/SciPandas-0.1/SciPandas-0.1/help/en_US/agg.xml">
+<!ENTITY acc5253c874d55e9ccc6862717d16fe02 SYSTEM "file:///F:/downloads/SciPandas-0.1/SciPandas-0.1/SciPandas-0.1/help/en_US/apply.xml">
+<!ENTITY a2c170c1d1ba67890b945133358202a75 SYSTEM "file:///F:/downloads/SciPandas-0.1/SciPandas-0.1/SciPandas-0.1/help/en_US/applymap.xml">
+<!ENTITY accf64f955fd57ce7080ebb205aea5a9b SYSTEM "file:///F:/downloads/SciPandas-0.1/SciPandas-0.1/SciPandas-0.1/help/en_US/astype.xml">
+<!ENTITY a26dba8c496c47c0f3c5ecf1534e427cb SYSTEM "file:///F:/downloads/SciPandas-0.1/SciPandas-0.1/SciPandas-0.1/help/en_US/at.xml">
+<!ENTITY a0dc79855ba322d1a5ad09483b9f3b943 SYSTEM "file:///F:/downloads/SciPandas-0.1/SciPandas-0.1/SciPandas-0.1/help/en_US/categorical.xml">
+<!ENTITY ac63e16b5ceb25d43f54edff8b87cc886 SYSTEM "file:///F:/downloads/SciPandas-0.1/SciPandas-0.1/SciPandas-0.1/help/en_US/combine.xml">
+<!ENTITY a23eaf51cc6ac80cdd6843af7b508eb44 SYSTEM "file:///F:/downloads/SciPandas-0.1/SciPandas-0.1/SciPandas-0.1/help/en_US/convert_dtypes.xml">
+<!ENTITY ac19ccf271b67797f30c4c74f08449f83 SYSTEM "file:///F:/downloads/SciPandas-0.1/SciPandas-0.1/SciPandas-0.1/help/en_US/copy.xml">
+<!ENTITY ae6b4adeb70e0081b9d01cf7b099db14c SYSTEM "file:///F:/downloads/SciPandas-0.1/SciPandas-0.1/SciPandas-0.1/help/en_US/corr.xml">
+<!ENTITY a74f1189199421932191a547f8f93b203 SYSTEM "file:///F:/downloads/SciPandas-0.1/SciPandas-0.1/SciPandas-0.1/help/en_US/corrwith().xml">
+<!ENTITY a2c2c2bca70df7cdc188e9657f143d65d SYSTEM "file:///F:/downloads/SciPandas-0.1/SciPandas-0.1/SciPandas-0.1/help/en_US/cut.xml">
+<!ENTITY ae56cd1206435ea5234512fc61b6064b4 SYSTEM "file:///F:/downloads/SciPandas-0.1/SciPandas-0.1/SciPandas-0.1/help/en_US/dataframe.xml">
+<!ENTITY a48a90dc9e85d2eac187455f88dbf7b11 SYSTEM "file:///F:/downloads/SciPandas-0.1/SciPandas-0.1/SciPandas-0.1/help/en_US/dframefunc.xml">
+<!ENTITY a3a808ced47c8f89c9204d6d2c6516782 SYSTEM "file:///F:/downloads/SciPandas-0.1/SciPandas-0.1/SciPandas-0.1/help/en_US/diff.xml">
+<!ENTITY aa3c6e8017478234fb32c2cdd977a94ab SYSTEM "file:///F:/downloads/SciPandas-0.1/SciPandas-0.1/SciPandas-0.1/help/en_US/drop.xml">
+<!ENTITY ad78793e95a24eae9cddbdb01b1a82db3 SYSTEM "file:///F:/downloads/SciPandas-0.1/SciPandas-0.1/SciPandas-0.1/help/en_US/drop_duplicates.xml">
+<!ENTITY a6e630f24a37e76bf001931ef94c1c8d2 SYSTEM "file:///F:/downloads/SciPandas-0.1/SciPandas-0.1/SciPandas-0.1/help/en_US/dropna.xml">
+<!ENTITY a072bd33d0d464fbfb46ec290e0033791 SYSTEM "file:///F:/downloads/SciPandas-0.1/SciPandas-0.1/SciPandas-0.1/help/en_US/ewm.xml">
+<!ENTITY a491490a0959c18011b23b6272c411bb7 SYSTEM "file:///F:/downloads/SciPandas-0.1/SciPandas-0.1/SciPandas-0.1/help/en_US/fillna.xml">
+<!ENTITY ae7cb2e3eba5d9db826f06a533b1027c0 SYSTEM "file:///F:/downloads/SciPandas-0.1/SciPandas-0.1/SciPandas-0.1/help/en_US/groupby.xml">
+<!ENTITY a3d0e87f2b9a1e9fa2170319eaa907578 SYSTEM "file:///F:/downloads/SciPandas-0.1/SciPandas-0.1/SciPandas-0.1/help/en_US/iloc.xml">
+<!ENTITY a29b2e66cd05ed1ba736fa9b00cd8058e SYSTEM "file:///F:/downloads/SciPandas-0.1/SciPandas-0.1/SciPandas-0.1/help/en_US/infer_objects.xml">
+<!ENTITY ae0cefa1ec0a3dd59070c22c9278275e0 SYSTEM "file:///F:/downloads/SciPandas-0.1/SciPandas-0.1/SciPandas-0.1/help/en_US/isna.xml">
+<!ENTITY ad73bba1880dec9dd98e90f8264bcc2aa SYSTEM "file:///F:/downloads/SciPandas-0.1/SciPandas-0.1/SciPandas-0.1/help/en_US/join.xml">
+<!ENTITY a98899c7febbaf649b8f3f21f7665db32 SYSTEM "file:///F:/downloads/SciPandas-0.1/SciPandas-0.1/SciPandas-0.1/help/en_US/loc.xml">
+<!ENTITY a178416f4ae42dbfd7c795c97d09d549a SYSTEM "file:///F:/downloads/SciPandas-0.1/SciPandas-0.1/SciPandas-0.1/help/en_US/melt().xml">
+<!ENTITY a2bf2fddadbac79495f82fcfbeed788d4 SYSTEM "file:///F:/downloads/SciPandas-0.1/SciPandas-0.1/SciPandas-0.1/help/en_US/memory_usage.xml">
+<!ENTITY a4698721bfcb83526240241a554c26eb7 SYSTEM "file:///F:/downloads/SciPandas-0.1/SciPandas-0.1/SciPandas-0.1/help/en_US/merge_ordered.xml">
+<!ENTITY a47f3d6cfca4c1c507ec4e1b40147010f SYSTEM "file:///F:/downloads/SciPandas-0.1/SciPandas-0.1/SciPandas-0.1/help/en_US/mul.xml">
+<!ENTITY a8188714b5636829d350f4c2e546d1469 SYSTEM "file:///F:/downloads/SciPandas-0.1/SciPandas-0.1/SciPandas-0.1/help/en_US/notna.xml">
+<!ENTITY a90c6de3261c776f9f922e19390dbbcaa SYSTEM "file:///F:/downloads/SciPandas-0.1/SciPandas-0.1/SciPandas-0.1/help/en_US/qcut.xml">
+<!ENTITY ae3e623284022979d5ed6bb52a6bbccec SYSTEM "file:///F:/downloads/SciPandas-0.1/SciPandas-0.1/SciPandas-0.1/help/en_US/rank.xml">
+<!ENTITY a710142bcac3123d79f0c7f4a8c5f1f1b SYSTEM "file:///F:/downloads/SciPandas-0.1/SciPandas-0.1/SciPandas-0.1/help/en_US/replace.xml">
+<!ENTITY a25e62fb2d7f34200f3ad4fbb19104139 SYSTEM "file:///F:/downloads/SciPandas-0.1/SciPandas-0.1/SciPandas-0.1/help/en_US/set_axis.xml">
+<!ENTITY a832e9984d865441fb7895af027a2b8fb SYSTEM "file:///F:/downloads/SciPandas-0.1/SciPandas-0.1/SciPandas-0.1/help/en_US/set_index.xml">
+<!ENTITY a90c29d6dcd6ffeb568611a4968580bdc SYSTEM "file:///F:/downloads/SciPandas-0.1/SciPandas-0.1/SciPandas-0.1/help/en_US/sort_values.xml">
+<!ENTITY a65615c7bded11caaf30eb307546691aa SYSTEM "file:///F:/downloads/SciPandas-0.1/SciPandas-0.1/SciPandas-0.1/help/en_US/sub.xml">
+<!ENTITY ad6ed8108eb273f91dc926dec36f24d08 SYSTEM "file:///F:/downloads/SciPandas-0.1/SciPandas-0.1/SciPandas-0.1/help/en_US/xs.xml">
+<!--End Entities-->
+]>
+<book version="5.0-subset Scilab" xml:lang="en_US"
+      xmlns="http://docbook.org/ns/docbook"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:svg="http://www.w3.org/2000/svg"
+      xmlns:mml="http://www.w3.org/1998/Math/MathML"
+      xmlns:html="http://www.w3.org/1999/xhtml"
+      xmlns:db="http://docbook.org/ns/docbook">
+  <info xml:id='scipandas_manual'>
+    <title>scipandas</title>
+  </info>
+
+<part xml:id='section_a64506a41db3568e598398366625ad49'>
+<title>scipandas</title>
+&a3b4852a476a4b41aa75fa30e7e2656ce;
+&acc5253c874d55e9ccc6862717d16fe02;
+&a2c170c1d1ba67890b945133358202a75;
+&accf64f955fd57ce7080ebb205aea5a9b;
+&a26dba8c496c47c0f3c5ecf1534e427cb;
+&a0dc79855ba322d1a5ad09483b9f3b943;
+&ac63e16b5ceb25d43f54edff8b87cc886;
+&a23eaf51cc6ac80cdd6843af7b508eb44;
+&ac19ccf271b67797f30c4c74f08449f83;
+&ae6b4adeb70e0081b9d01cf7b099db14c;
+&a74f1189199421932191a547f8f93b203;
+&a2c2c2bca70df7cdc188e9657f143d65d;
+&ae56cd1206435ea5234512fc61b6064b4;
+&a48a90dc9e85d2eac187455f88dbf7b11;
+&a3a808ced47c8f89c9204d6d2c6516782;
+&aa3c6e8017478234fb32c2cdd977a94ab;
+&ad78793e95a24eae9cddbdb01b1a82db3;
+&a6e630f24a37e76bf001931ef94c1c8d2;
+&a072bd33d0d464fbfb46ec290e0033791;
+&a491490a0959c18011b23b6272c411bb7;
+&ae7cb2e3eba5d9db826f06a533b1027c0;
+&a3d0e87f2b9a1e9fa2170319eaa907578;
+&a29b2e66cd05ed1ba736fa9b00cd8058e;
+&ae0cefa1ec0a3dd59070c22c9278275e0;
+&ad73bba1880dec9dd98e90f8264bcc2aa;
+&a98899c7febbaf649b8f3f21f7665db32;
+&a178416f4ae42dbfd7c795c97d09d549a;
+&a2bf2fddadbac79495f82fcfbeed788d4;
+&a4698721bfcb83526240241a554c26eb7;
+&a47f3d6cfca4c1c507ec4e1b40147010f;
+&a8188714b5636829d350f4c2e546d1469;
+&a90c6de3261c776f9f922e19390dbbcaa;
+&ae3e623284022979d5ed6bb52a6bbccec;
+&a710142bcac3123d79f0c7f4a8c5f1f1b;
+&a25e62fb2d7f34200f3ad4fbb19104139;
+&a832e9984d865441fb7895af027a2b8fb;
+&a90c29d6dcd6ffeb568611a4968580bdc;
+&a65615c7bded11caaf30eb307546691aa;
+&ad6ed8108eb273f91dc926dec36f24d08;
+</part>
+</book>
