@@ -21,7 +21,7 @@ Toolbox: scipandas
 Title: SciPandas
 
 // One-line description for your toolbox
-Summary: Analyze with the power of Pandas
+Summary: This work is a part of the Scilab Toolbox Hackathon organised by FOSSEE, IIT Bombay in June-July 2020. (https://fossee.in/ https://scilab.in/)
 
 // Version number, in format 'major.minor.patch', or
 // 'major.minor.patch', where all fields are numbers.
